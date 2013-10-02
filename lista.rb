@@ -19,18 +19,13 @@ class Twitt
           <title>Practica2_STW</title>
         </head>
         <body>
-          <section>
             <h2>Practica2_STW</h2>
             <form action="/" method="post">
               Introduzca un usuario de Twitter para ver su ultimo twitt <input type="text" name="user" autofocus><br>
               <input type="submit" value="Confirmar">
             </form>
-          </section>
-          
-          <section>
             <p> ------------------------------------------------------------------------------------------------------ </p>
             #{username}<br><br>#{user_tweets}
-          </section>
         </body>
       </html>
     EOS
